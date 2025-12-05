@@ -21,7 +21,7 @@ st.set_page_config(layout="wide")
 st.title("Video Game Sales Dashboard")
 
 # Load data
-file_path = '/content/video_games_sales.csv'
+file_path = 'video_games_sales.csv'
 data = load_data(file_path)
 
 if data is not None:
